@@ -1,7 +1,7 @@
 {
-  "name": "angular2-typescript-webpack-starter",
-  "version": "1.1.0",
-  "description": "Minimal Angular2 development environment which use typeScript.",
+  "name": "Lollaway",
+  "version": "1.0.0",
+  "description": "A unique tool made exclusively for Lollapalooza fans.",
   "main": "webpack.config.js",
   "dependencies": {
     "angular2": "2.0.0-beta.3",
@@ -23,20 +23,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nirkaufman/angular2-typeScript-webpack-starter.git"
+    "url": "git+https://github.com/amnon89/angular2-typeScript-webpack-starter.git"
   },
-  "keywords": [
-    "angular2",
-    "angular",
-    "typeScript",
-    "webpack",
-    "angular2",
-    "starter"
-  ],
-  "author": "Nir Kaufman <nirkaufman.com> (nirkaufman.com)",
+  "keywords": [],
+  "author": "Amnon Altony",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nirkaufman/angular2-typeScript-webpack-starter/issues"
+    "url": "https://github.com/amnon89/angular2-typeScript-webpack-starter/issues"
   },
-  "homepage": "https://github.com/nirkaufman/angular2-typeScript-webpack-starter#readme"
+  "homepage": "https://github.com/amnon89/angular2-typeScript-webpack-starter#readme"
 }
