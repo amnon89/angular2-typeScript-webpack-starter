@@ -9,16 +9,37 @@ import {Friend} from "../../models/friend";
 
 @Component({
     selector:   'header',
+    styles:     [`
+                .headerBar {
+                    width: 100%;
+                    background-color: black;
+                    height: 62px;
+                    color: white
+                }
+
+                .logo {
+                    float: right;
+                    width: 121px;
+                    height: 20px;
+                    margin-top: 21px;
+                    margin-right: 21px;
+                }
+
+                .searchComponent {
+                    display: inline-block;
+                    margin-top: 19px;
+                    margin-left: 19px;
+                }`],
     directives: [Search],
-    providers: [FriendsServiceImpl],
+    providers:  [FriendsServiceImpl],
     template:   `
-    <div style="width: 100%; background-color: black; height: 55px; color: white">
-        <search (onSearch)="search($event)"></search>
-        <span>
-            <img [src]=lollawayLogo style="float: right; width: 121px; height: 20px; margin-top: 17px; margin-right: 17px;">
-        </span>
-    </div>
-    `
+                <div class="headerBar">
+                    <search (onSearch)="search($event)" class="searchComponent"></search>
+                    <span>
+                        <img [src]=lollawayLogo class="logo">
+                    </span>
+                </div>
+                `
 })
 export class Header {
 
