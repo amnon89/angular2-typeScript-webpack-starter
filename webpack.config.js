@@ -16,7 +16,14 @@ module.exports = {
       {
         test: /\.ts$/,
         exclude: [/node_modules/],
-        loader: 'ts-loader' }
+        loader: 'ts-loader' },
+
+      // all files with a `.css` extension will be handled by `css-loader` and 'style-loader'
+      {
+        test: /\.css$/,
+        exclude: [/node_modules/],
+        loaders: ['style', 'css']
+      }
     ]
   },
 
