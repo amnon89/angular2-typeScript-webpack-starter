@@ -1,3 +1,7 @@
+//Stylesheets
+import 'assets/stylesheets/general.css';
+import 'assets/stylesheets/animation.css';
+
 import 'expose?Zone!zone.js';
 import 'reflect-metadata';
 import {App}         from 'components/app'
